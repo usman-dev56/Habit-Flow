@@ -71,20 +71,20 @@ Consistency metrics
 └── README.md
 
 # Tech Stack
- *Frontend:
-React with latest Vite
-Tailwind CSS for styling
-Framer Motion for animations
-Recharts for data visualization
-React Router for navigation
-Axios for API calls
+ * Frontend:
+    * React with latest Vite
+    * Tailwind CSS for styling
+    * Framer Motion for animations
+    * Recharts for data visualization
+    * React Router for navigation
+    * Axios for API calls
 
-  *Backend:
-Node.js with Express
-MongoDB with Mongoose
-JWT for authentication
-Bcrypt for password hashing
-CORS enabled
+* Backend:
+   * Node.js with Express
+   * MongoDB with Mongoose
+   * JWT for authentication
+   * Bcrypt for password hashing
+   * CORS enabled
 
 # Acknowledgments
 * Icons from Lucide React

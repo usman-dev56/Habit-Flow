@@ -43,8 +43,35 @@ Habit performance comparison
 Streak history charts
 Consistency metrics
 
+
+# Project Structure
+ habit-flow/
+├── backend/
+│   ├── index.js              # Main server file
+│   ├── package.json
+│   ├── .env                  # Environment variables
+│   ├── models/               # MongoDB schemas
+│   │   ├── User.js
+│   │   ├── Habit.js
+│   │   └── HabitLog.js
+│   └── routes/               # API routes
+│       ├── auth.js
+│       └── habits.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/       # React components
+│   │   ├── pages/           # Page components
+│   │   ├── services/        # API services
+│   │   ├── utils/           # Utilities
+│   │   ├── App.jsx          # Main app component
+│   │   └── main.jsx         # Entry point
+│   ├── index.html
+│   └── package.json
+├── .gitignore
+└── README.md
+
 # Tech Stack
-# *Frontend:
+ *Frontend:
 React with latest Vite
 Tailwind CSS for styling
 Framer Motion for animations
@@ -52,10 +79,19 @@ Recharts for data visualization
 React Router for navigation
 Axios for API calls
 
-# *Backend:
+  *Backend:
 Node.js with Express
 MongoDB with Mongoose
 JWT for authentication
 Bcrypt for password hashing
 CORS enabled
 
+# Acknowledgments
+* Icons from Lucide React
+* Charts from Recharts
+* Animations from Framer Motion
+* UI components inspired by modern design systems
+
+⭐ Star this repo if you find it helpful! ⭐
+
+Made with ❤️ by Usman
